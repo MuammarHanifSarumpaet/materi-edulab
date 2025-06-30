@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56A704632E123A75001D625F /* LaporanKerjaPraktekApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A704622E123A75001D625F /* LaporanKerjaPraktekApp.swift */; };
+		56A704652E123A75001D625F /* contentview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A704642E123A75001D625F /* contentview.swift */; };
+		56A704672E123A77001D625F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56A704662E123A77001D625F /* Assets.xcassets */; };
+		56A704822E123F14001D625F /* searchview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A704812E123F11001D625F /* searchview.swift */; };
+		56A704842E123F2A001D625F /* favoriteviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A704832E123F18001D625F /* favoriteviews.swift */; };
+		56A704862E123F3A001D625F /* bookcardview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A704852E123F33001D625F /* bookcardview.swift */; };
+		56A704882E123F48001D625F /* bookdetailview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A704872E123F43001D625F /* bookdetailview.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		56A7045F2E123A75001D625F /* LaporanKerjaPraktek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = LaporanKerjaPraktek.app; path = "/Users/icodecom/Library/Mobile Documents/com~apple~CloudDocs/iCodeWave Community/hanif/LaporanKerjaPraktek/build/Debug-iphoneos/LaporanKerjaPraktek.app"; sourceTree = "<absolute>"; };
+		56A704622E123A75001D625F /* LaporanKerjaPraktekApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaporanKerjaPraktekApp.swift; sourceTree = "<group>"; };
+		56A704642E123A75001D625F /* contentview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contentview.swift; sourceTree = "<group>"; };
+		56A704662E123A77001D625F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56A7047E2E123E59001D625F /* book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = book.swift; sourceTree = "<group>"; };
+		56A7047F2E123EBF001D625F /* bookviewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookviewmodel.swift; sourceTree = "<group>"; };
+		56A704802E123ECA001D625F /* favoriteviewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoriteviewmodel.swift; sourceTree = "<group>"; };
+		56A704812E123F11001D625F /* searchview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchview.swift; sourceTree = "<group>"; };
+		56A704832E123F18001D625F /* favoriteviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoriteviews.swift; sourceTree = "<group>"; };
+		56A704852E123F33001D625F /* bookcardview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookcardview.swift; sourceTree = "<group>"; };
+		56A704872E123F43001D625F /* bookdetailview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookdetailview.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56A7045C2E123A75001D625F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56A704562E123A75001D625F = {
+			isa = PBXGroup;
+			children = (
+				56A7047D2E123E16001D625F /* models */,
+				56A7047C2E123E02001D625F /* viewmodels */,
+				56A704602E123A75001D625F /* views */,
+				56A704622E123A75001D625F /* LaporanKerjaPraktekApp.swift */,
+				56A704662E123A77001D625F /* Assets.xcassets */,
+			);
+			sourceTree = "<group>";
+		};
+		56A704602E123A75001D625F /* views */ = {
+			isa = PBXGroup;
+			children = (
+				56A704872E123F43001D625F /* bookdetailview.swift */,
+				56A704852E123F33001D625F /* bookcardview.swift */,
+				56A704832E123F18001D625F /* favoriteviews.swift */,
+				56A704812E123F11001D625F /* searchview.swift */,
+				56A704642E123A75001D625F /* contentview.swift */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		56A7047C2E123E02001D625F /* viewmodels */ = {
+			isa = PBXGroup;
+			children = (
+				56A704802E123ECA001D625F /* favoriteviewmodel.swift */,
+				56A7047F2E123EBF001D625F /* bookviewmodel.swift */,
+			);
+			path = viewmodels;
+			sourceTree = "<group>";
+		};
+		56A7047D2E123E16001D625F /* models */ = {
+			isa = PBXGroup;
+			children = (
+				56A7047E2E123E59001D625F /* book.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56A7045E2E123A75001D625F /* LaporanKerjaPraktek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56A7046A2E123A77001D625F /* Build configuration list for PBXNativeTarget "LaporanKerjaPraktek" */;
+			buildPhases = (
+				56A7045B2E123A75001D625F /* Sources */,
+				56A7045C2E123A75001D625F /* Frameworks */,
+				56A7045D2E123A75001D625F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaporanKerjaPraktek;
+			packageProductDependencies = (
+			);
+			productName = LaporanKerjaPraktek;
+			productReference = 56A7045F2E123A75001D625F /* LaporanKerjaPraktek.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56A704572E123A75001D625F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					56A7045E2E123A75001D625F = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 56A7045A2E123A75001D625F /* Build configuration list for PBXProject "LaporanKerjaPraktek" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56A704562E123A75001D625F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 56A704602E123A75001D625F /* views */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56A7045E2E123A75001D625F /* LaporanKerjaPraktek */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56A7045D2E123A75001D625F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56A704672E123A77001D625F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56A7045B2E123A75001D625F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56A704842E123F2A001D625F /* favoriteviews.swift in Sources */,
+				56A704862E123F3A001D625F /* bookcardview.swift in Sources */,
+				56A704652E123A75001D625F /* contentview.swift in Sources */,
+				56A704632E123A75001D625F /* LaporanKerjaPraktekApp.swift in Sources */,
+				56A704882E123F48001D625F /* bookdetailview.swift in Sources */,
+				56A704822E123F14001D625F /* searchview.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		56A704682E123A77001D625F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56A704692E123A77001D625F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56A7046B2E123A77001D625F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.genz.LaporanKerjaPraktek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56A7046C2E123A77001D625F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.genz.LaporanKerjaPraktek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56A7045A2E123A75001D625F /* Build configuration list for PBXProject "LaporanKerjaPraktek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56A704682E123A77001D625F /* Debug */,
+				56A704692E123A77001D625F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56A7046A2E123A77001D625F /* Build configuration list for PBXNativeTarget "LaporanKerjaPraktek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56A7046B2E123A77001D625F /* Debug */,
+				56A7046C2E123A77001D625F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56A704572E123A75001D625F /* Project object */;
+}
