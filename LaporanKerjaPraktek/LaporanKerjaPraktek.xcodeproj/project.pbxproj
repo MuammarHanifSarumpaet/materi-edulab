@@ -8,27 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		56A704632E123A75001D625F /* LaporanKerjaPraktekApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A704622E123A75001D625F /* LaporanKerjaPraktekApp.swift */; };
-		56A704652E123A75001D625F /* contentview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A704642E123A75001D625F /* contentview.swift */; };
 		56A704672E123A77001D625F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56A704662E123A77001D625F /* Assets.xcassets */; };
-		56A704822E123F14001D625F /* searchview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A704812E123F11001D625F /* searchview.swift */; };
-		56A704842E123F2A001D625F /* favoriteviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A704832E123F18001D625F /* favoriteviews.swift */; };
-		56A704862E123F3A001D625F /* bookcardview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A704852E123F33001D625F /* bookcardview.swift */; };
-		56A704882E123F48001D625F /* bookdetailview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A704872E123F43001D625F /* bookdetailview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		56A7045F2E123A75001D625F /* LaporanKerjaPraktek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = LaporanKerjaPraktek.app; path = "/Users/icodecom/Library/Mobile Documents/com~apple~CloudDocs/iCodeWave Community/hanif/LaporanKerjaPraktek/build/Debug-iphoneos/LaporanKerjaPraktek.app"; sourceTree = "<absolute>"; };
 		56A704622E123A75001D625F /* LaporanKerjaPraktekApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaporanKerjaPraktekApp.swift; sourceTree = "<group>"; };
-		56A704642E123A75001D625F /* contentview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contentview.swift; sourceTree = "<group>"; };
 		56A704662E123A77001D625F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		56A7047E2E123E59001D625F /* book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = book.swift; sourceTree = "<group>"; };
-		56A7047F2E123EBF001D625F /* bookviewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookviewmodel.swift; sourceTree = "<group>"; };
-		56A704802E123ECA001D625F /* favoriteviewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoriteviewmodel.swift; sourceTree = "<group>"; };
-		56A704812E123F11001D625F /* searchview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchview.swift; sourceTree = "<group>"; };
-		56A704832E123F18001D625F /* favoriteviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoriteviews.swift; sourceTree = "<group>"; };
-		56A704852E123F33001D625F /* bookcardview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookcardview.swift; sourceTree = "<group>"; };
-		56A704872E123F43001D625F /* bookdetailview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookdetailview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		56A704892E1243D6001D625F /* models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = models;
+			sourceTree = "<group>";
+		};
+		56A7048D2E12441E001D625F /* views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = views;
+			sourceTree = "<group>";
+		};
+		56A7048E2E124440001D625F /* viewmodels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = viewmodels;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		56A7045C2E123A75001D625F /* Frameworks */ = {
@@ -44,41 +49,12 @@
 		56A704562E123A75001D625F = {
 			isa = PBXGroup;
 			children = (
-				56A7047D2E123E16001D625F /* models */,
-				56A7047C2E123E02001D625F /* viewmodels */,
-				56A704602E123A75001D625F /* views */,
-				56A704622E123A75001D625F /* LaporanKerjaPraktekApp.swift */,
 				56A704662E123A77001D625F /* Assets.xcassets */,
+				56A704622E123A75001D625F /* LaporanKerjaPraktekApp.swift */,
+				56A704892E1243D6001D625F /* models */,
+				56A7048E2E124440001D625F /* viewmodels */,
+				56A7048D2E12441E001D625F /* views */,
 			);
-			sourceTree = "<group>";
-		};
-		56A704602E123A75001D625F /* views */ = {
-			isa = PBXGroup;
-			children = (
-				56A704872E123F43001D625F /* bookdetailview.swift */,
-				56A704852E123F33001D625F /* bookcardview.swift */,
-				56A704832E123F18001D625F /* favoriteviews.swift */,
-				56A704812E123F11001D625F /* searchview.swift */,
-				56A704642E123A75001D625F /* contentview.swift */,
-			);
-			name = views;
-			sourceTree = "<group>";
-		};
-		56A7047C2E123E02001D625F /* viewmodels */ = {
-			isa = PBXGroup;
-			children = (
-				56A704802E123ECA001D625F /* favoriteviewmodel.swift */,
-				56A7047F2E123EBF001D625F /* bookviewmodel.swift */,
-			);
-			path = viewmodels;
-			sourceTree = "<group>";
-		};
-		56A7047D2E123E16001D625F /* models */ = {
-			isa = PBXGroup;
-			children = (
-				56A7047E2E123E59001D625F /* book.swift */,
-			);
-			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +71,11 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				56A704892E1243D6001D625F /* models */,
+				56A7048D2E12441E001D625F /* views */,
+				56A7048E2E124440001D625F /* viewmodels */,
 			);
 			name = LaporanKerjaPraktek;
 			packageProductDependencies = (
@@ -128,7 +109,7 @@
 			mainGroup = 56A704562E123A75001D625F;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 56A704602E123A75001D625F /* views */;
+			productRefGroup = 56A704562E123A75001D625F;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -153,12 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56A704842E123F2A001D625F /* favoriteviews.swift in Sources */,
-				56A704862E123F3A001D625F /* bookcardview.swift in Sources */,
-				56A704652E123A75001D625F /* contentview.swift in Sources */,
 				56A704632E123A75001D625F /* LaporanKerjaPraktekApp.swift in Sources */,
-				56A704882E123F48001D625F /* bookdetailview.swift in Sources */,
-				56A704822E123F14001D625F /* searchview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
